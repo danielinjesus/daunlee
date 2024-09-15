@@ -1,0 +1,54 @@
+/* 전체 레이아웃 설정 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color:rgba(27, 255, 255, 0.418); 
+    padding: 10px;
+    text-align: center;
+    }
+
+.logo {
+        text-align: left;
+        font-size:18;
+        }
+
+.menu-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.menu-btn:hover {
+    background-color: #45a049;
+}
+
+.menu-btn.active {
+    background-color: #f44336;
+}
+
+#content-area {
+    padding: 5px 5px;
+}
+
+.content {
+    display: none;  /* 기본적으로 숨김 처리 */
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.content.active {
+    display: block;  /* 활성화된 콘텐츠만 표시 */
+}
